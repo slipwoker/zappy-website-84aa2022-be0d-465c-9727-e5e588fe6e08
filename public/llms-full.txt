@@ -2,13 +2,13 @@
 
 פרוצס מספקת שירותי ניהול ואחזקת מבנים, ניקיון מקצועי, עבודות גובה ואספקת כוח אדם לעסקים ולנכסים מסחריים.
 
-Source: https://-84aa2022.zappy5.app
+Source: https://example.com
 
 ---
 
 ## העסק שלך ראוי לניקיון מושלם — מג&#39;יקל סרוויס
 
-URL: https://-84aa2022.zappy5.app
+URL: https://example.com
 Description: מחפשים חברת ניהול ואחזקת מבנים שתשחרר אתכם להתמקד בעסק? מג&#39;יקל סרוויס מספקת ניקיון מקצועי, עבודות גובה וכוח אדם איכותי. דברו איתנו עוד היום!
 
 העסק שלך ראוי לניקיון מושלם — מג'יקל סרוויס
@@ -329,7 +329,7 @@ Description: מחפשים חברת ניהול ואחזקת מבנים שתשחר
 
 ## גלו את השירותים שישדרגו את הנכס שלכם — מג&#39;יקל סרוויס
 
-URL: https://-84aa2022.zappy5.app/services
+URL: https://example.com/services
 Description: מניקיון יסודי ועד עבודות גובה מורכבות — מג&#39;יקל סרוויס מציעה פתרונות אחזקה מלאים לעסקים ולנכסים מסחריים. היכנסו לראות מה אנחנו יכולים לעשות עבורכם!
 
 גלו את השירותים שישדרגו את הנכס שלכם — מג'יקל סרוויס
@@ -815,7 +815,7 @@ Description: מניקיון יסודי ועד עבודות גובה מורכבו
 
 ## הכירו את הצוות שמאחורי הניקיון המושלם — מג&#39;יקל סרוויס
 
-URL: https://-84aa2022.zappy5.app/about-the-company
+URL: https://example.com/about-the-company
 Description: מג&#39;יקל סרוויס היא הרבה יותר מחברת אחזקה — אנחנו שותפים אמיתיים להצלחת העסק שלכם. קראו על הערכים, הניסיון והמקצועיות שמניעים אותנו קדימה.
 
 הכירו את הצוות שמאחורי הניקיון המושלם — מג'יקל סרוויס
@@ -1090,7 +1090,7 @@ Description: מג&#39;יקל סרוויס היא הרבה יותר מחברת א
 
 ## צרו קשר וקבלו הצעת מחיר משתלמת — מג&#39;יקל סרוויס
 
-URL: https://-84aa2022.zappy5.app/contact
+URL: https://example.com/contact
 Description: מוכנים לשדרג את הניקיון והאחזקה של העסק שלכם? השאירו פרטים עכשיו ונחזור אליכם עם הצעת מחיר מותאמת אישית. מג&#39;יקל סרוויס כאן בשבילכם!
 
 צרו קשר וקבלו הצעת מחיר משתלמת — מג'יקל סרוויס
@@ -1407,7 +1407,7 @@ WhatsApp
 
 ## ניקיון עם רחפנים: המהפכה הבאה באחזקה — מג&#39;יקל סרוויס
 
-URL: https://-84aa2022.zappy5.app/articles/drone-cleaning
+URL: https://example.com/articles/drone-cleaning
 Description: טכנולוגיית רחפנים משנה את עולם ניקיון המבנים הגבוהים. קראו כיצד מג&#39;יקל סרוויס מובילה את החדשנות בתחום ומספקת תוצאות בטוחות ומרשימות יותר.
 
 ניקיון עם רחפנים: המהפכה הבאה באחזקה — מג'יקל סרוויס
@@ -1704,7 +1704,7 @@ Description: טכנולוגיית רחפנים משנה את עולם ניקיו
 
 ## טיפים ותובנות שיחסכו לכם כסף — מג&#39;יקל סרוויס
 
-URL: https://-84aa2022.zappy5.app/articles
+URL: https://example.com/articles
 Description: רוצים לדעת איך לשמור על הנכס שלכם במצב מושלם לאורך זמן? קראו את הכתבות שלנו וקבלו טיפים מקצועיים על ניקיון, אחזקה וניהול מבנים חכם.
 
 טיפים ותובנות שיחסכו לכם כסף — מג'יקל סרוויס
@@ -2017,7 +2017,7 @@ Proces פרוצס - ניקוי בעזרת רחפנים: פתרון מתקדם ל
 
 ## Proces: Your Partner for Building Excellence — מג&#39;יקל סרוויס
 
-URL: https://-84aa2022.zappy5.app/en
+URL: https://example.com/en
 Description: Proces by מג&#39;יקל סרוויס delivers professional building management, expert cleaning, and skilled workforce solutions for commercial properties. Partner with us today!
 
 Proces: Your Partner for Building Excellence — מג'יקל סרוויס
@@ -2439,7 +2439,7 @@ Annual contracts, one-time projects, or call arrangements – the work model is 
 
 ## Explore Our Full Range of Facility Services — מג&#39;יקל סרוויס
 
-URL: https://-84aa2022.zappy5.app/en/services
+URL: https://example.com/en/services
 Description: From deep cleaning to high-rise access work, Proces offers comprehensive maintenance solutions for businesses and commercial properties. Discover what we can do for you!
 
 Explore Our Full Range of Facility Services — מג'יקל סרוויס
@@ -2853,7 +2853,7 @@ After completion of work, rigorous quality control is performed. For contract cl
 
 ## Meet the Team Behind Impeccable Facilities — מג&#39;יקל סרוויס
 
-URL: https://-84aa2022.zappy5.app/en/about-the-company
+URL: https://example.com/en/about-the-company
 Description: Proces is more than a maintenance company — we are true partners in your business success. Read about the values, experience, and professionalism that drive us forward.
 
 Meet the Team Behind Impeccable Facilities — מג'יקל סרוויס
@@ -3134,7 +3134,7 @@ The group's management structure allows for pricing flexibility and full value f
 
 ## Get Your Free Quote Today — מג&#39;יקל סרוויס
 
-URL: https://-84aa2022.zappy5.app/en/contact
+URL: https://example.com/en/contact
 Description: Ready to elevate your business cleaning and maintenance? Leave your details now and we&#39;ll get back to you with a tailored quote. Proces is here for you!
 
 Get Your Free Quote Today — מג'יקל סרוויס
@@ -3381,7 +3381,7 @@ Leave your details and we'll get back to you soon with a customized quote. Pleas
 
 ## Expert Insights to Save You Money — מג&#39;יקל סרוויס
 
-URL: https://-84aa2022.zappy5.app/en/articles
+URL: https://example.com/en/articles
 Description: Want to keep your property in perfect condition year-round? Read our articles and get professional tips on cleaning, maintenance, and smart building management.
 
 Expert Insights to Save You Money — מג'יקל סרוויס
@@ -3729,7 +3729,7 @@ The Proces team provides you with thousands of skilled workers, advanced technol
 
 ## Drone Cleaning: The Next Maintenance Revolution — מג&#39;יקל סרוויס
 
-URL: https://-84aa2022.zappy5.app/en/articles/drone-cleaning
+URL: https://example.com/en/articles/drone-cleaning
 Description: Drone technology is transforming high-rise building cleaning. Read how Proces leads innovation in the field and delivers safer, more impressive results for your property.
 
 Drone Cleaning: The Next Maintenance Revolution — מג'יקל סרוויס
@@ -3968,7 +3968,7 @@ Whether you are property managers, maintenance companies, homeowners' committees
 
 ## הפרטיות שלכם היא בראש סדר העדיפויות — מג&#39;יקל סרוויס
 
-URL: https://-84aa2022.zappy5.app/privacy
+URL: https://example.com/privacy
 Description: קראו כיצד מג&#39;יקל סרוויס מגנה על המידע האישי שלכם. מדיניות הפרטיות שלנו שקופה, ברורה ומעודכנת — כי האמון שלכם חשוב לנו יותר מכל.
 
 הפרטיות שלכם היא בראש סדר העדיפויות — מג'יקל סרוויס
@@ -4249,7 +4249,7 @@ Proces פרוצס ("החברה", "אנו", "שלנו") מחויבת להגן ע�
 
 ## Your Privacy Comes First — מג&#39;יקל סרוויס
 
-URL: https://-84aa2022.zappy5.app/en/privacy
+URL: https://example.com/en/privacy
 Description: Read how Proces protects your personal information. Our privacy policy is transparent, clear, and up-to-date — because your trust matters more than anything.
 
 Your Privacy Comes First — מג'יקל סרוויס
@@ -4530,7 +4530,7 @@ Database Registrar: For complaints, you can contact the Database Registrar at th
 
 ## התנאים שמבטיחים שיתוף פעולה הוגן — מג&#39;יקל סרוויס
 
-URL: https://-84aa2022.zappy5.app/terms
+URL: https://example.com/terms
 Description: רוצים לדעת בדיוק מה כוללים השירותים שלנו? קראו את תנאי השימוש של מג&#39;יקל סרוויס והבינו כיצד אנו מבטיחים שיתוף פעולה שקוף והוגן לכל לקוח.
 
 התנאים שמבטיחים שיתוף פעולה הוגן — מג'יקל סרוויס
@@ -4835,7 +4835,7 @@ Proces פרוצס מספקת Facility Management & Staffing Services דרך הא
 
 ## Fair Terms for a Strong Partnership — מג&#39;יקל סרוויס
 
-URL: https://-84aa2022.zappy5.app/en/terms
+URL: https://example.com/en/terms
 Description: Want to know exactly what our services include? Read Proces terms of use and understand how we ensure transparent and fair collaboration with every client.
 
 Fair Terms for a Strong Partnership — מג'יקל סרוויס
@@ -5146,7 +5146,7 @@ Proces פרוצס מספקת שירותים כלליים דרך האתר. השי
 
 ## אתר נגיש לכולם, ללא יוצאים מן הכלל — מג&#39;יקל סרוויס
 
-URL: https://-84aa2022.zappy5.app/accessibility
+URL: https://example.com/accessibility
 Description: מג&#39;יקל סרוויס מחויבת לנגישות מלאה לכל גולש. קראו את הצהרת הנגישות שלנו ולמדו כיצד אנו מבטיחים חוויית גלישה שוויונית ונוחה לכל אחד.
 
 אתר נגיש לכולם, ללא יוצאים מן הכלל — מג'יקל סרוויס
@@ -5432,7 +5432,7 @@ Proces פרוצס מחויבת להנגיש את השירותים לכלל הצ�
 
 ## An Accessible Website for Everyone — מג&#39;יקל סרוויס
 
-URL: https://-84aa2022.zappy5.app/en/accessibility
+URL: https://example.com/en/accessibility
 Description: Proces is committed to full accessibility for every visitor. Read our accessibility statement and learn how we ensure an equal and comfortable browsing experience for all.
 
 An Accessible Website for Everyone — מג'יקל סרוויס
@@ -5720,7 +5720,7 @@ Complaints: You can file a complaint with the Ministry of Justice - Commissioner
 
 ## ידע מקצועי שיחסוך לכם זמן וכסף — מג&#39;יקל סרוויס
 
-URL: https://-84aa2022.zappy5.app/knowledge-tips
+URL: https://example.com/knowledge-tips
 Description: היכנסו למאגר הטיפים והמידע המקצועי שלנו! למדו כיצד לתחזק נכסים בצורה חכמה, לחסוך בעלויות ולשמור על סביבת עבודה נקייה ומקצועית לאורך זמן.
 
 ידע מקצועי שיחסוך לכם זמן וכסף — מג'יקל סרוויס
@@ -6007,7 +6007,7 @@ Description: היכנסו למאגר הטיפים והמידע המקצועי ש
 
 ## Professional Knowledge That Saves You Time — מג&#39;יקל סרוויס
 
-URL: https://-84aa2022.zappy5.app/en/knowledge-tips
+URL: https://example.com/en/knowledge-tips
 Description: Explore our library of professional tips and insights! Learn how to maintain properties smartly, reduce costs, and keep a clean, professional work environment over time.
 
 Professional Knowledge That Saves You Time — מג'יקל סרוויס
@@ -6248,7 +6248,7 @@ Proces' technical rope access team explains the strict safety protocols, interna
 
 ## מדיניות פרטיות
 
-URL: https://-84aa2022.zappy5.app/privacy
+URL: https://example.com/privacy
 Description: מדיניות הפרטיות שלנו - כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם
 
 מדיניות פרטיות
@@ -6516,7 +6516,7 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 
 ## הצהרת נגישות
 
-URL: https://-84aa2022.zappy5.app/accessibility
+URL: https://example.com/accessibility
 Description: הצהרת הנגישות שלנו - מחויבותנו לנגישות דיגיטלית
 
 הצהרת נגישות
@@ -6793,7 +6793,7 @@ Description: הצהרת הנגישות שלנו - מחויבותנו לנגיש�
 
 ## תנאי שימוש
 
-URL: https://-84aa2022.zappy5.app/terms
+URL: https://example.com/terms
 Description: תנאי השימוש באתר - הזכויות והחובות של המשתמשים
 
 תנאי שימוש
@@ -7089,7 +7089,7 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 
 ## תודה רבה | מג'יקל סרוויס
 
-URL: https://-84aa2022.zappy5.app/thank-you
+URL: https://example.com/thank-you
 Description: תודה רבה על פנייתך לחברת מג'יקל סרוויס. קיבלנו את הודעתך בנושא ניהול ואחזקת מבנים ונחזור אליך בהקדם.
 
 תודה רבה | מג'יקל סרוויס
