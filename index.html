@@ -740,220 +740,183 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css">
     <!-- Mickidum Accessibility Toolbar lazy-loaded by runtime -->
 
+
+
 <style data-zappy-section-v2-css="true">
 /* V2 Regenerated Section CSS */
-.index-content-alt-2-section {
+.index-content-section {
   background-color: var(--bg-light);
   color: var(--text-dark);
-  padding: 100px 16px;
+  padding: 80px 16px;
   position: relative;
   overflow: hidden;
 }
 
-.index-content-alt-2-section__container {
+.index-content-section .index-content-container {
   max-width: 1200px;
   margin: 0 auto;
-  position: relative;
-  z-index: 10;
+  padding: 0;
 }
 
-.index-content-alt-2-section__grid {
+.index-content-section .index-content-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 40px;
+  gap: 32px;
+  direction: rtl;
   align-items: center;
 }
 
-.index-content-alt-2-section__media {
+.index-content-section .index-content-visual {
   position: relative;
   min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.index-content-alt-2-section__image-wrapper {
+.index-content-section .index-content-image-frame {
   position: relative;
+  width: 100%;
+  max-width: 600px;
   border-radius: 24px;
   overflow: hidden;
-  box-shadow: 0 24px 48px -12px rgba(26, 26, 46, 0.25);
-  aspect-ratio: 3 / 2;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  border: 4px solid #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.index-content-alt-2-section__image-wrapper img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.index-content-section .index-content-image-frame:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 35px 60px -15px rgba(0, 0, 0, 0.35);
+}
+
+.index-content-section .index-content-image-frame img {
   display: block;
-  transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
-.index-content-alt-2-section__media:hover .index-content-alt-2-section__image-wrapper img {
-  transform: scale(1.04);
-}
-
-.index-content-alt-2-section__accent-badge {
+.index-content-section .index-content-badge {
   position: absolute;
-  bottom: 20px;
-  inset-inline-end: 20px;
+  bottom: 24px;
+  inset-inline-start: -12px;
   background-color: var(--bg-dark);
   color: var(--text-light);
+  padding: 12px 20px;
+  border-radius: 50px;
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding: 10px 16px;
-  border-radius: 100px;
-  font-size: 0.875rem;
+  gap: 10px;
+  font-size: 14px;
   font-weight: 600;
-  box-shadow: 0 8px 16px -4px rgba(0, 0, 0, 0.3);
-  z-index: 5;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  white-space: nowrap;
 }
 
-.index-content-alt-2-section__badge-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background-color: var(--primary);
+.index-content-section .index-content-badge-icon {
+  width: 24px;
+  height: 24px;
+  color: var(--primary);
   flex-shrink: 0;
 }
 
-.index-content-alt-2-section__decorative-tile {
-  position: absolute;
-  bottom: -20px;
-  inset-inline-start: -20px;
-  width: 60%;
-  height: 40%;
-  background-color: var(--primary);
-  border-radius: 24px;
-  z-index: -1;
-  opacity: 0.8;
+.index-content-section .index-content-badge-icon svg {
+  width: 100%;
+  height: 100%;
 }
 
-.index-content-alt-2-section__content {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  text-align: start;
+.index-content-section .index-content-text {
+  min-width: 0;
+  text-align: right;
 }
 
-.index-content-alt-2-section__eyebrow {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 0.875rem;
-  font-weight: 600;
-  color: var(--secondary);
-  letter-spacing: 0.5px;
-}
-
-.index-content-alt-2-section__eyebrow svg {
-  width: 18px;
-  height: 18px;
-  color: var(--primary);
-}
-
-.index-content-alt-2-section__title {
+.index-content-section .index-content-title {
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.3;
+  margin-bottom: 24px;
   color: var(--text-dark);
-  margin: 0;
+  position: relative;
+  padding-bottom: 16px;
 }
 
-.index-content-alt-2-section__text {
+.index-content-section .index-content-title::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: var(--primary);
+  border-radius: 2px;
+  margin-top: 12px;
+}
+
+.index-content-section .index-content-text p {
   font-size: 16px;
   line-height: 1.7;
-  color: var(--text-muted);
-  margin: 0;
-  max-width: 560px;
+  color: var(--text-dark);
+  margin-bottom: 16px;
 }
 
-.index-content-alt-2-section__features {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.index-content-alt-2-section__feature-item {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  font-size: 1rem;
+.index-content-section .index-content-text .index-content-lead {
+  font-size: 16px;
   font-weight: 500;
   color: var(--text-dark);
-  padding: 12px 16px;
-  background-color: #FFFFFF;
-  border: 1px solid var(--border-light);
-  border-radius: 16px;
-  transition: all 0.3s ease;
-}
-
-.index-content-alt-2-section__feature-item:hover {
-  border-color: var(--primary);
-  box-shadow: 0 8px 16px -8px rgba(245, 200, 66, 0.4);
-  transform: translateY(-2px);
-}
-
-.index-content-alt-2-section__feature-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 32px;
-  height: 32px;
-  background-color: rgba(245, 200, 66, 0.15);
-  border-radius: 50%;
-  flex-shrink: 0;
-  color: var(--secondary);
-}
-
-.index-content-alt-2-section__feature-icon svg {
-  width: 16px;
-  height: 16px;
+  border-inline-start: 4px solid var(--primary);
+  padding-inline-start: 16px;
+  margin-bottom: 20px;
 }
 
 @media (min-width: 768px) {
-  .index-content-alt-2-section {
-    padding: 120px 32px;
+  .index-content-section {
+    padding: 100px 24px;
   }
 
-  .index-content-alt-2-section__grid {
+  .index-content-section .index-content-grid {
     grid-template-columns: 1fr 1fr;
-    gap: 64px;
+    gap: 48px;
   }
 
-  .index-content-alt-2-section__media {
-    order: 2;
-  }
-
-  .index-content-alt-2-section__content {
-    order: 1;
-  }
-
-  .index-content-alt-2-section__title {
+  .index-content-section .index-content-title {
     font-size: 2.5rem;
+  }
+
+  .index-content-section .index-content-badge {
+    bottom: 32px;
+    inset-inline-start: -20px;
+    padding: 14px 24px;
+    font-size: 16px;
   }
 }
 
 @media (max-width: 768px) {
-  .index-content-alt-2-section {
-    padding: 100px 16px 60px;
+  .index-content-section {
+    padding: 60px 16px;
   }
 
-  .index-content-alt-2-section__decorative-tile {
-    display: none;
+  .index-content-section .index-content-grid {
+    grid-template-columns: 1fr !important;
+    gap: 24px;
   }
 
-  .index-content-alt-2-section__image-wrapper {
-    aspect-ratio: 4 / 3;
+  .index-content-section .index-content-badge {
+    bottom: 16px;
+    inset-inline-start: 8px;
+    padding: 8px 16px;
+    font-size: 13px;
+    white-space: normal;
   }
 
-  .index-content-alt-2-section__accent-badge {
-    bottom: 12px;
-    inset-inline-end: 12px;
-    padding: 8px 12px;
-    font-size: 0.75rem;
+  .index-content-section .index-content-title {
+    font-size: 1.75rem;
+  }
+
+  .index-content-section .index-content-image-frame {
+    border-radius: 16px;
   }
 }
+
 </style>
     <style id="zappy-critical-above-fold-css">
 html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{box-sizing:inherit}body{margin:0;min-width:320px;overflow-x:clip}img,svg,video{max-width:100%;height:auto}main{display:block}.container{width:min(100% - 32px,1200px);margin-inline:auto}.navbar,nav.navbar,header .navbar,header[role="banner"]{position:relative;z-index:1000;width:100%}.nav-container,.navbar .container{display:flex;align-items:center;justify-content:space-between;min-height:64px}.logo,.logo-link img{display:block;width:35px;height:35px;object-fit:contain}.nav-menu,#navMenu{list-style:none;margin:0;padding:0}.navbar a,.nav-menu a,#navMenu a,.navbar .nav-links a{color:inherit;text-decoration:none}.navbar .sub-menu,.nav-menu .sub-menu,#navMenu .sub-menu{display:none}.fa,.fas,.far,.fab,.fa-solid,.fa-regular,.fa-brands{display:inline-block;min-width:1em;text-align:center}html:not(#zappy-noop)[data-zappy-site-type="ecommerce"] .phone-header-btn,html:not(#zappy-noop) .navbar:has(.nav-ecommerce-icons)>.phone-header-btn{display:none!important;visibility:hidden!important;width:0!important;height:0!important;pointer-events:none!important}.zappy-preview-empty-store-cta{display:none!important;visibility:hidden!important;height:0!important;max-height:0!important;overflow:hidden!important;margin:0!important;padding:0!important;border:0!important;box-shadow:none!important}.zappy-catalog-menu{background:var(--surface-color,var(--surface,linear-gradient(135deg,#f8f9fa 0%,#fff 100%)));border-bottom:1px solid var(--border-color,#e5e7eb);padding:0;position:sticky;top:0;z-index:90}.zappy-catalog-menu[dir=rtl],.zappy-catalog-menu.rtl{direction:rtl}.zappy-catalog-menu[dir=ltr],.zappy-catalog-menu.ltr{direction:ltr}.catalog-menu-container{max-width:1440px;margin:0 auto;display:flex;align-items:center;gap:8px;padding:10px 24px;overflow:visible}.catalog-menu-categories,.catalog-menu-list{display:flex;align-items:center;gap:4px;flex-wrap:wrap;margin:0;padding:0;list-style:none}.catalog-menu-item{display:inline-flex;align-items:center;padding:8px 16px;font-size:14px;font-weight:500;color:var(--text-color,var(--text,#374151));text-decoration:none;border-radius:20px;white-space:nowrap}.catalog-menu-all{background:var(--primary-color,var(--primary,#111));color:var(--text-light,#fff)!important}.catalog-menu-parent{position:relative;display:inline-flex;align-items:center}.catalog-menu-trigger{display:inline-flex;align-items:center;gap:6px}.catalog-menu-chevron{flex-shrink:0}.catalog-menu-parent>.sub-menu{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important}.hero-section,.index-hero-section,section[class*="hero"]{position:relative;overflow:hidden}.hero-section,.index-hero-section{min-height:560px}section[data-hero-type*="fullscreen"]{min-height:100vh}.hero-bg-wrapper,.hero-bg-image,section[class*="hero"] [class*="hero-bg"]{position:absolute;inset:0;width:100%;height:100%}.hero-bg-wrapper img,.hero-bg-image img,section[class*="hero"] [data-hero-bg],section[class*="hero"] img[data-hero-background="true"]{width:100%!important;height:100%!important;object-fit:cover!important;display:block}.hero-content,section[class*="hero"] .container{position:relative;z-index:2}@media(max-width:768px){:root{--header-height:72px;--total-header-height:72px;--zappy-mobile-menu-top:72px}html[data-zappy-site-type="ecommerce"] body{padding-top:var(--total-header-height,72px)}html[data-zappy-site-type="ecommerce"] body>nav.navbar,html[data-zappy-site-type="ecommerce"] body>.navbar:not(.zappy-catalog-menu){position:fixed!important;top:0;left:0;right:0;z-index:100000;width:100%;margin-bottom:0}.zappy-catalog-menu{position:fixed;top:var(--header-height,72px);left:0;right:0;z-index:99999}.nav-container,.navbar .container{min-height:60px}.nav-menu,#navMenu{max-width:100vw;overflow-x:hidden}.hero-section,.index-hero-section,section[class*="hero"],section[data-hero-type*="fullscreen"]{min-height:100svh}.hero-bg-wrapper,.hero-bg-image,.hero-scrim{min-height:100svh}}
@@ -1607,18 +1570,26 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
   </div>
 </section>
 
-<section data-band-index="1" class="index-content-section" data-layout-spec="עמוד הבית-content">
+<section class="index-content-section" data-layout-spec="עמוד הבית-content" data-zappy-section="true">
   <div class="index-content-container">
     <div class="index-content-grid">
+      <div class="index-content-visual">
+        <div class="index-content-image-frame">
+          <img alt="צוות אחזקת מבנים מקצועי של פרוצס עם רחפן לניקוי חזיתות" src="/assets/image-business-consulting-coaching-hero-site-index-hero-image-1-1781165339083-h6.webp" data-placeholder="index-content-image-1" data-context="Professional team of building maintenance workers in branded uniforms cleaning a modern commercial building facade with a drone hovering nearby, bright daylight, corporate photography style" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" decoding="async">
+        </div>
+        <div class="index-content-badge">
+          <span class="index-content-badge-icon" data-element-type="icon" data-icon-type="svg">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><path d="m9 12 2 2 4-4"></path></svg>
+          </span>
+          <span>מומחיות טכנית מתקדמת</span>
+        </div>
+      </div>
       <div class="index-content-text">
-        <h2 class="index-content-heading">פתרונות ניהול ואחזקה כוללים לעסק שלך</h2>
-        <p>חטיבות מקצועיות ייעודיות לגישה קשה, טיפול חזיתות, ציפוי ננו, הסרת כתמים וגרפיטי, הדברה אקולוגית, חיטוי באוזון, ניקיון מעבדות וחדרים נקיים. אנו משלבים כוח אדם עם מומחיות טכנית מתקדמת כדי לספק מענה כולל לכל דרישות התחזוקה והניקיון של הארגון שלך.</p>
+        <h2 class="index-content-title">פתרונות ניהול ואחזקה כוללים לעסק שלך</h2>
+        <p class="index-content-lead">חטיבות מקצועיות ייעודיות לגישה קשה, טיפול חזיתות, ציפוי ננו, הסרת כתמים וגרפיטי, הדברה אקולוגית, חיטוי באוזון, ניקיון מעבדות וחדרים נקיים. אנו משלבים כוח אדם עם מומחיות טכנית מתקדמת כדי לספק מענה כולל לכל דרישות התחזוקה והניקיון של הארגון שלך.</p>
         <p>אנו מפעילים מחלקות ייעודיות לעבודות שגרה ועבודות מיוחדות, כך שכל פרויקט מקבל את תשומת הלב והמומחיות הנדרשות. צוותי השטח שלנו עוברים הכשרות קפדניות ומצוידים במיטב הטכנולוגיה, החל ממערכות אוסמוזה הפוכה ועד רחפנים ייעודיים לניקוי חזיתות.</p>
         <p>בין אם מדובר בחוזה אחזקה שנתי לבניין משרדים ובין אם בניקיון יסודי חד-פעמי לאחר שיפוץ, אנו מתאימים את המתודולוגיה והצוות לכל פרויקט.</p>
         <p>צוות המומחים של פרוצס מוכן לבנות עבורכם תוכנית שירות מותאמת אישית – מניקיון שוטף ועד עבודות גובה מתקדמות עם רחפן. השאירו פרטים ונחזור אליכם עם הצעה מקצועית.</p>
-      </div>
-      <div class="index-content-media">
-        <img loading="lazy" decoding="async" data-placeholder="index-content-image-1" data-context="Professional team of building maintenance workers in branded uniforms cleaning a modern commercial building facade with a drone hovering nearby, bright daylight, corporate photography style" width="600" height="400" src="/assets/image-business-consulting-coaching-hero-site-index-hero-image-1-1781165339083-h6.webp" alt="צוות אחזקת מבנים מקצועי של פרוצס עם רחפן לניקוי חזיתות">
       </div>
     </div>
   </div>
