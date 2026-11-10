@@ -12081,6 +12081,99 @@ main { flex: 1 0 auto; }
   text-align: right;
   margin: 0 0 24px 0;
 }
+
+.index-services-section .index-services-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+  margin-top: 40px;
+  direction: rtl;
+}
+
+.index-services-section .index-services-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.index-services-section .index-service-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  background-color: var(--background-color, var(--background, var(--bg-light, #FFFFFF)));
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  border: 1px solid var(--border-light);
+}
+
+.index-services-section .index-service-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  min-width: 52px;
+  border-radius: 12px;
+  background-color: var(--primary);
+  color: var(--secondary);
+  font-size: 22px;
+}
+
+.index-services-section .index-service-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin: 0 0 8px 0;
+}
+
+.index-services-section .index-service-desc {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--text-dark);
+  margin: 0;
+}
+
+.index-services-section .index-services-right {
+  display: flex;
+}
+
+.index-services-section .index-service-featured {
+  background-color: var(--background-color, var(--background, var(--bg-light, #FFFFFF)));
+  border-radius: 16px;
+  padding: 32px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  border: 1px solid var(--border-light);
+  height: 100%;
+}
+
+.index-services-section .index-service-featured-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin: 0 0 20px 0;
+}
+
+.index-services-section .index-service-featured-text {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--text-dark);
+  margin: 0 0 16px 0;
+}
+
+.index-services-section .index-service-featured-text:last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: 900px) {
+.index-services-section .index-services-grid {
+  grid-template-columns: 1fr 1.2fr;
+  align-items: stretch;
+}
+}
+/* zappy-self-heal */
+.index-services-section .index-services-grid { grid-template-columns: 1fr !important; }
+
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
