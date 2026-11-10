@@ -12016,6 +12016,42 @@ main { flex: 1 0 auto; }
 }
 /* /Zappy custom logo size */
 
+
+.index-content-section .index-content-text {
+  max-width: 100%;
+  width: 100%;
+}
+
+.index-content-section .index-content-feature {
+  background-color: var(--background-color, var(--background, var(--bg-light, #FFFFFF)));
+  border: 1px solid var(--border-light);
+  border-radius: 14px;
+  padding: 20px 24px;
+  margin-bottom: 16px;
+  border-inline-start: 4px solid var(--primary);
+}
+
+.index-content-section .index-content-feature-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin: 0 0 8px 0;
+}
+
+.index-content-section .index-content-feature-desc {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--text-dark);
+  margin: 0;
+}
+
+.index-content-section .index-content-grid {
+  grid-template-columns: 1fr;
+  gap: 0;
+}
+/* zappy-self-heal */
+.index-content-section .index-content-feature { border: 1px solid var(--border-light) !important; }
+
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
