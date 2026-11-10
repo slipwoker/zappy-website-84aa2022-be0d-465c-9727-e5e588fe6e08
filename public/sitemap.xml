@@ -43,19 +43,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://magical-service.zappy5.app/en/privacy</loc>
-    <lastmod>2026-11-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://magical-service.zappy5.app/terms</loc>
-    <lastmod>2026-11-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://magical-service.zappy5.app/en/terms</loc>
     <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
