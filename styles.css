@@ -12084,7 +12084,7 @@ main { flex: 1 0 auto; }
 
 .index-services-section .index-services-grid {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1.2fr !important;
   gap: 32px;
   margin-top: 40px;
   direction: rtl;
@@ -12171,8 +12171,9 @@ main { flex: 1 0 auto; }
   align-items: stretch;
 }
 }
-/* zappy-self-heal */
-.index-services-section .index-services-grid { grid-template-columns: 1fr !important; }
+.index-services-section .index-services-grid {
+  grid-template-columns: 1fr 1.2fr !important;
+}
 
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
