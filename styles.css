@@ -12781,6 +12781,10 @@ main { flex: 1 0 auto; }
 /* zappy-self-heal */
 .ms-services .ms-grid { grid-template-columns: 1fr 1fr !important; }
 
+
+.ms-services {
+  padding-top: 80px !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
