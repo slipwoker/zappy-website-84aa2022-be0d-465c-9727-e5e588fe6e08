@@ -12529,6 +12529,258 @@ main { flex: 1 0 auto; }
     font-size: 1.15rem;
   }
 }
+
+.ms-services {
+  background: var(--background-color, var(--background, var(--bg-light, #FFFFFF)));
+  padding: 40px 20px 80px;
+  font-family: system-ui, sans-serif;
+  color: #1A1A1A;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ms-breadcrumb ol {
+  list-style: none;
+  display: flex;
+  gap: 8px;
+  padding: 0;
+  margin: 0 0 24px;
+  font-size: 14px;
+  color: #666666;
+}
+
+.ms-breadcrumb a {
+  color: var(--secondary-color, var(--secondary, #1A1A2E));
+  text-decoration: none;
+}
+
+.ms-breadcrumb a:hover {
+  color: var(--accent-color, var(--accent, #F5C842));
+}
+
+.ms-hero {
+  text-align: center;
+  max-width: 780px;
+  margin: 0 auto 48px;
+}
+
+.ms-hero h1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: var(--secondary-color, var(--secondary, #1A1A2E));
+  margin: 0 0 16px;
+  line-height: 1.25;
+}
+
+.ms-hero p {
+  font-size: 18px;
+  color: #666666;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.ms-services .ms-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.ms-services .ms-card {
+  background: #F8F8F8;
+  border: 1px solid #E0E0E0;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+}
+
+.ms-services .ms-card--full {
+  grid-column: 1 / -1;
+  flex-direction: row;
+}
+
+.ms-services .ms-card__media {
+  background: #E6E6F0;
+}
+
+.ms-services .ms-card--full .ms-card__media {
+  width: 42%;
+  min-height: 240px;
+}
+
+.ms-services .ms-card:not(.ms-card--full) .ms-card__media {
+  height: 200px;
+}
+
+.ms-services .ms-card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.ms-services .ms-card__body {
+  padding: 24px;
+  flex: 1;
+}
+
+.ms-services .ms-card__body h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--secondary-color, var(--secondary, #1A1A2E));
+  margin: 0 0 10px;
+}
+
+.ms-services .ms-card__body p {
+  font-size: 15px;
+  color: #666666;
+  line-height: 1.6;
+  margin: 0 0 14px;
+}
+
+.ms-services .ms-card__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ms-services .ms-card__list li {
+  position: relative;
+  padding-right: 20px;
+  margin-bottom: 8px;
+  font-size: 15px;
+  color: var(--secondary-color, var(--secondary, #1A1A2E));
+}
+
+.ms-services .ms-cta {
+  text-align: center;
+  margin: 48px 0 72px;
+}
+
+.ms-services .ms-cta__btn {
+  display: inline-block;
+  background: var(--accent-color, var(--accent, #F5C842));
+  color: var(--secondary-color, var(--secondary, #1A1A2E));
+  text-decoration: none;
+  padding: 16px 40px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+
+.ms-process h2, .ms-capabilities h2 {
+  font-size: 30px;
+  font-weight: 800;
+  color: var(--secondary-color, var(--secondary, #1A1A2E));
+  text-align: center;
+  margin: 0 0 40px;
+}
+
+.ms-process .ms-process__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.ms-process .ms-process__step {
+  background: #F8F8F8;
+  border: 1px solid #E0E0E0;
+  border-radius: 12px;
+  padding: 24px;
+  text-align: center;
+}
+
+.ms-process .ms-process__num {
+  display: inline-block;
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--accent-color, var(--accent, #F5C842));
+  margin-bottom: 12px;
+}
+
+.ms-process .ms-process__step h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--secondary-color, var(--secondary, #1A1A2E));
+  margin: 0 0 10px;
+}
+
+.ms-process .ms-process__step p {
+  font-size: 14px;
+  color: #666666;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.ms-capabilities {
+  margin-top: 72px;
+}
+
+.ms-capabilities .ms-capabilities__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.ms-capabilities .ms-capability {
+  background: var(--secondary-color, var(--secondary, #1A1A2E));
+  border-radius: 12px;
+  padding: 32px 24px;
+  text-align: center;
+  color: var(--background-color, var(--background, var(--bg-light, #FFFFFF)));
+}
+
+.ms-capabilities .ms-capability__icon {
+  color: var(--accent-color, var(--accent, #F5C842));
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.ms-capabilities .ms-capability h3 {
+  font-size: 19px;
+  font-weight: 700;
+  margin: 0 0 10px;
+  color: var(--background-color, var(--background, var(--bg-light, #FFFFFF)));
+}
+
+.ms-capabilities .ms-capability p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0;
+  color: #D0D0DC;
+}
+
+@media (max-width: 768px) {
+.ms-services .ms-grid {
+  grid-template-columns: 1fr;
+}
+
+.ms-services .ms-card--full {
+  flex-direction: column;
+}
+
+.ms-services .ms-card--full .ms-card__media {
+  width: 100%;
+}
+
+.ms-process .ms-process__grid {
+  grid-template-columns: 1fr;
+}
+
+.ms-capabilities .ms-capabilities__grid {
+  grid-template-columns: 1fr;
+}
+
+.ms-hero h1 {
+  font-size: 30px;
+}
+}
+/* zappy-self-heal */
+.ms-services .ms-grid { grid-template-columns: 1fr 1fr !important; }
+
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
