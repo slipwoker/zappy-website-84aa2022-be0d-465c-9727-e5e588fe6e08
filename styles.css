@@ -12602,15 +12602,16 @@ main { flex: 1 0 auto; }
 
 .ms-services .ms-card__media {
   background: #E6E6F0;
+  max-height: 180px;
 }
 
 .ms-services .ms-card--full .ms-card__media {
   width: 42%;
-  min-height: 240px;
+  min-height: 160px;
 }
 
 .ms-services .ms-card:not(.ms-card--full) .ms-card__media {
-  height: 200px;
+  height: 160px;
 }
 
 .ms-services .ms-card__img {
@@ -12621,12 +12622,12 @@ main { flex: 1 0 auto; }
 }
 
 .ms-services .ms-card__body {
-  padding: 24px;
+  padding: 18px;
   flex: 1;
 }
 
 .ms-services .ms-card__body h2 {
-  font-size: 22px;
+  font-size: 19px;
   font-weight: 700;
   color: var(--secondary-color, var(--secondary, #1A1A2E));
   margin: 0 0 10px;
