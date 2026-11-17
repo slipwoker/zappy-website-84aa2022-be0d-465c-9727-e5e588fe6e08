@@ -7,41 +7,41 @@
 ## Pages
 
 ### עמוד הבית
-https://magical-service.zappy5.app
+https://example.com
 מחפשים חברת ניהול ואחזקת מבנים שתשחרר אתכם להתמקד בעסק? מג&#39;יקל סרוויס מספקת ניקיון מקצועי, עבודות גובה וכוח אדם איכותי. דברו איתנו עוד היום!
 
 ### שירותינו
-https://magical-service.zappy5.app/services
+https://example.com/services
 מניקיון יסודי ועד עבודות גובה מורכבות — מג&#39;יקל סרוויס מציעה פתרונות אחזקה מלאים לעסקים ולנכסים מסחריים. היכנסו לראות מה אנחנו יכולים לעשות עבורכם!
 
 ### אודותינו
-https://magical-service.zappy5.app/about-the-company
+https://example.com/about-the-company
 מג&#39;יקל סרוויס היא הרבה יותר מחברת אחזקה — אנחנו שותפים אמיתיים להצלחת העסק שלכם. קראו על הערכים, הניסיון והמקצועיות שמניעים אותנו קדימה.
 
 ### צור קשר
-https://magical-service.zappy5.app/contact
+https://example.com/contact
 מוכנים לשדרג את הניקיון והאחזקה של העסק שלכם? השאירו פרטים עכשיו ונחזור אליכם עם הצעת מחיר מותאמת אישית. מג&#39;יקל סרוויס כאן בשבילכם!
 
 ### כתבות
-https://magical-service.zappy5.app/articles
+https://example.com/articles
 רוצים לדעת איך לשמור על הנכס שלכם במצב מושלם לאורך זמן? קראו את הכתבות שלנו וקבלו טיפים מקצועיים על ניקיון, אחזקה וניהול מבנים חכם.
 
 ### תודה רבה | מג'יקל סרוויס
-https://magical-service.zappy5.app/thank-you
+https://example.com/thank-you
 תודה רבה על פנייתך לחברת מג'יקל סרוויס. קיבלנו את הודעתך בנושא ניהול ואחזקת מבנים ונחזור אליך בהקדם.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://magical-service.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://magical-service.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://magical-service.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -54,8 +54,8 @@ Information about WCAG compliance and accessibility features.
 - Address: איירפוט סיטי, ישראל
 
 ### Contact form
-- URL: https://magical-service.zappy5.app/contact
-- Endpoint: https://magical-service.zappy5.app/api/email/contact-form
+- URL: https://example.com/contact
+- Endpoint: https://example.com/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -97,6 +97,6 @@ Business Consulting & Coaching
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://magical-service.zappy5.app/sitemap.xml
-- Robots: https://magical-service.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://magical-service.zappy5.app/llms-full.txt
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
